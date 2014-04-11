@@ -2,11 +2,12 @@
 require File.expand_path('../lib/omniauth-disqus/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name          = 'omniauth-disqus'
-  gem.authors       = [ 'Chris Lexmond' ]
-  gem.email         = [ 'chris@chrislexmond.com' ]
-  gem.description   = 'A Disqus OAuth2 strategy for OmniAuth'
-  gem.homepage      = ''
+  gem.name        = 'omniauth-disqus'
+  gem.authors     = [ 'Chris Lexmond' ]
+  gem.email       = [ 'chris@chrislexmond.com' ]
+  gem.description = 'A Disqus OAuth2 strategy for OmniAuth'
+  gem.summary     = 'A Disqus OAuth2 strategy for OmniAuth'
+  gem.homepage    = ''
 
   gem.add_runtime_dependency 'omniauth-oauth2'
 
