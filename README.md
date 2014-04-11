@@ -1,5 +1,9 @@
 # Omniauth::Disqus
 
+[![Gem Version](http://img.shields.io/gem/v/omniauth-disqus.svg)][gem]
+
+[gem]: https://rubygems.org/gems/omniauth-disqus
+
 A Disqus OAuth2 strategy for OmniAuth.
 
 ## Installation

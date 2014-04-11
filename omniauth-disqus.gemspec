@@ -7,9 +7,11 @@ Gem::Specification.new do |gem|
   gem.email       = [ 'chris@chrislexmond.com' ]
   gem.description = 'A Disqus OAuth2 strategy for OmniAuth'
   gem.summary     = 'A Disqus OAuth2 strategy for OmniAuth'
-  gem.homepage    = ''
+  gem.homepage    = 'https://rubygems.org/gems/omniauth-disqus'
+  gem.license     = 'MIT'
 
-  gem.add_runtime_dependency 'omniauth-oauth2'
+  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.1'
+  gem.required_ruby_version = '>= 1.8.7'
 
   gem.files         = `git ls-files`.split($\)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
