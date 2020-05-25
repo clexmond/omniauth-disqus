@@ -1,0 +1,9 @@
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
+Naming/FileName:
+  Exclude:
+    - 'lib/omniauth-disqus.rb'
+
+Style/Documentation:
+  Enabled: false
