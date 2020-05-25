@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.license     = 'MIT'
 
   gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.1'
+  gem.add_development_dependency 'rubocop', '0.84.0'
   gem.required_ruby_version = '>= 1.8.7'
 
   gem.files         = `git ls-files`.split($\)
